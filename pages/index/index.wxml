@@ -3,46 +3,64 @@
   <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="150">
     <block wx:for="{{movies}}" wx:for-index="index" wx:key="index">
       <swiper-item>
-        <image src="{{item.url}}" class="slide-image" mode="aspectFill" />
+        <image src="{{item.url}}" class="slide-image" mode="aspectFill"></image>
       </swiper-item>
     </block>
   </swiper>
+
   <view class="section">
     <view class="title">
       <text>分类</text>
-      <navigator url="/pages/category/category" open-type="redirect">查看全部</navigator>
+      <navigator url="/pages/detail/detail" open-type="redirect">查看全部</navigator>
     </view>
     <view class="border-wrapper category-list">
       <view wx:for="{{category}}" wx:key="index">
         <image src="{{item.iconUrl}}"></image>
-        <view>{{item.name}}</view>
+        <text>{{item.name}}</text>
       </view>
-
     </view>
   </view>
 
   <view class="section">
-    <view class="title">热门推荐</view>
+    <view class="title">
+      <text>热门推荐</text>
+    </view>
     <view class="border-wrapper hot-list">
       <view wx:for="{{hot}}" wx:key="index">
         <image src="{{item.imgUrl}}" mode="aspectFill"></image>
         <view class="info">
-          <view>{{item.title}}</view>
-          <view>{{item.description}}</view>
+          <text>{{item.title}}</text>
+          <text>{{item.description}}</text>
         </view>
       </view>
     </view>
   </view>
 
-
   <view class="section">
-    <view class="title is-link">商标服务</view>
-    <view class="border-wrapper item-list">
+    <view class="title is-link">
+      <text>商标服务</text>
+    </view>
+    <view class="border-wrapper item-list red-icon">
       <view wx:for="{{service}}" wx:key="index">
-      <icon type="success"></icon>
-      {{item.name}}
+        <text class="icon-book"></text> {{item.name}}
       </view>
     </view>
   </view>
 
+  <view class="tel-wrapper">
+    <text class="icon-book"></text>
+    <text>020-28105110</text>
+  </view>
+
+  <view class="section">
+    <view class="title">
+      <text>合作伙伴</text>
+    </view>
+    <image class="cooperation" src="../../res/images/cooperation.png" mode="aspectFit"></image>
+  </view>
+
+  <view class="copyright">
+    <text>广州市天河区中山大道中天银大厦2110</text>
+    <text>国家知识产权局批准机构代码:44387</text>
+  </view>
 </view>

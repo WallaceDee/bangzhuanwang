@@ -1,0 +1,106 @@
+<!--pages/detail/detail.wxml-->
+<image class="banner" src="../../res/tempImages/banner(1).jpg" mode="aspectFill"></image>
+<view class="container">
+  <view class="section top">
+    <text class="title">商标注册</text>
+    <text class="description">商标是企业门面和颜值担当,是发展品牌的第一步</text>
+    <view class="price">
+      <text>￥888.00</text>
+      <text>含官费300元</text>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="title">
+      <text>产品价值</text>
+    </view>
+    <view class="ul">
+      <view class="li">
+        <text>树立品牌形象</text>
+      </view>
+      <view class="li">
+        <text>具有保护性和排他性</text>
+      </view>
+      <view class="li">
+        <text>天猫、京东等入驻凭证</text>
+      </view>
+      <view class="li">
+        <text>无形资产，创造收益无形资产,创造收益</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="title">
+      <text>所需材料</text>
+    </view>
+    <view class="ul">
+      <view class="li">
+        <text>营业执照复印件</text>
+      </view>
+      <view class="li">
+        <text>商标图样</text>
+      </view>
+      <view class="li">
+        <text>商标委托书</text>
+        <text class="high-light">(帮专网准备)</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="title">
+      <text>服务过程中获取的资料与时间</text>
+    </view>
+    <view class="ul">
+      <view class="li">
+        <text>受理回执</text>
+        <text class="bold">(1-3个工作日)</text>
+      </view>
+      <view class="li">
+        <text>纸质版受理通知书</text>
+        <text class="bold">(3个月左右)</text>
+      </view>
+      <view class="li">
+        <text>初步审定公告通知书</text>
+        <text class="bold">(9个月左右)</text>
+      </view>
+      <view class="li">
+        <text>拿到证书</text>
+        <text class="bold">(公告期满三个月)</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="title">
+      <text>帮专网优势</text>
+    </view>
+    <view class="item-list">
+      <view>
+        <image src="../../res/images/icon_youshi@2x.png" mode="aspectFit"></image>
+        <text>专业</text>
+        <text>精选五年以上代理人</text>
+      </view>
+      <view>
+        <image src="../../res/images/icon_shegnxin@2x.png" mode="aspectFit"></image>
+        <text>省心</text>
+        <text>流程清晰可见</text>
+      </view>
+      <view>
+        <image src="../../res/images/icon_jiage@2x.png" mode="aspectFit"></image>
+        <text>价格</text>
+        <text>透明标准化</text>
+      </view>
+      <view>
+        <image src="../../res/images/icon_anquan@2x.png" mode="aspectFit"></image>
+        <text>安全</text>
+        <text>签订合同与保密协议</text>
+      </view>
+    </view>
+  </view>
+
+  <view>
+
+  </view>
+</view>

@@ -1,43 +1,43 @@
 {
-    "pages": [
-        "pages/index/index",
-        "pages/category/category",
-        "pages/service/service",
-        "pages/me/me"
-    ],
-    "tabBar":
-    {
-        "list": [
-        {
-            "pagePath": "pages/index/index",
-            "text": "首页",
-            "iconPath": "./res/tabBarIcon/icon_home.png",
-            "selectedIconPath": "./res/tabBarIcon/icon_home_active.png"
-        },
-        {
-            "pagePath": "pages/category/category",
-            "text": "分类",
-            "iconPath": "./res/tabBarIcon/icon_category.png",
-            "selectedIconPath": "./res/tabBarIcon/icon_category_active.png"
-        },
-        {
-            "pagePath": "pages/service/service",
-            "text": "咨询",
-            "iconPath": "./res/tabBarIcon/icon_service.png",
-            "selectedIconPath": "./res/tabBarIcon/icon_service_active.png"
-        },
-        {
-            "pagePath": "pages/me/me",
-            "text": "我的",
-            "iconPath": "./res/tabBarIcon/icon_me.png",
-            "selectedIconPath": "./res/tabBarIcon/icon_me_active.png"
-        }]
-    },
-    "window":
-    {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#22cdc4",
-        "navigationBarTitleText": "帮专网",
-        "navigationBarTextStyle": "white"
-    }
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/service/service",
+    "pages/me/me",
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./res/tabBarIcon/icon_home.png",
+        "selectedIconPath": "./res/tabBarIcon/icon_home_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "./res/tabBarIcon/icon_category.png",
+        "selectedIconPath": "./res/tabBarIcon/icon_category_active.png"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "text": "咨询",
+        "iconPath": "./res/tabBarIcon/icon_service.png",
+        "selectedIconPath": "./res/tabBarIcon/icon_service_active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "./res/tabBarIcon/icon_me.png",
+        "selectedIconPath": "./res/tabBarIcon/icon_me_active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#22cdc4",
+    "navigationBarTitleText": "帮专网",
+    "navigationBarTextStyle": "white"
+  }
 }
