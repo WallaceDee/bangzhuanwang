@@ -1,10 +1,48 @@
 <!--index.wxml-->
 <view class="container">
-    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="200">    
-      <block wx:for="{{movies}}" wx:for-index="index">    
-        <swiper-item>    
-          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>    
-        </swiper-item>    
-      </block>    
-    </swiper>    
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="150">
+    <block wx:for="{{movies}}" wx:for-index="index" wx:key="index">
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" mode="aspectFill" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="section">
+    <view class="title">
+      <text>分类</text>
+      <navigator url="/pages/category/category" open-type="redirect">查看全部</navigator>
+    </view>
+    <view class="border-wrapper category-list">
+      <view wx:for="{{category}}" wx:key="index">
+        <image src="{{item.iconUrl}}"></image>
+        <view>{{item.name}}</view>
+      </view>
+
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="title">热门推荐</view>
+    <view class="border-wrapper hot-list">
+      <view wx:for="{{hot}}" wx:key="index">
+        <image src="{{item.imgUrl}}" mode="aspectFill"></image>
+        <view class="info">
+          <view>{{item.title}}</view>
+          <view>{{item.description}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="section">
+    <view class="title is-link">商标服务</view>
+    <view class="border-wrapper item-list">
+      <view wx:for="{{service}}" wx:key="index">
+      <icon type="success"></icon>
+      {{item.name}}
+      </view>
+    </view>
+  </view>
+
 </view>
