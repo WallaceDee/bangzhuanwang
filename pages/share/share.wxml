@@ -1,0 +1,19 @@
+<!--pages/share/share.wxml-->
+<view class="container">
+  <image class="surface" mode="aspectFit" src="../../res/tempImages/consultant_share.jpg"></image>
+  <view class="type">
+    <view>
+      <image mode="aspectFit" src='../../res/images/icon_baocun_normal@2x.png'></image>
+      <text>保存海报</text>
+    </view>
+    <view>
+      <image mode="aspectFit" src='../../res/images/icon_pengyou_normal@2x.png'></image>
+      <text>微信好友</text>
+    </view>
+    <view>
+      <image mode="aspectFit" src='../../res/images/icon_pengyouquan_normal@2x.png'></image>
+      <text>朋友圈</text>
+    </view>
+  </view>
+  <button class="cancel-btn">取消</button>
+</view>

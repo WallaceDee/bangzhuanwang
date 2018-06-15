@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/share/share",
     "pages/category/category",
     "pages/service/service",
     "pages/me/me",
@@ -9,7 +9,7 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/consultant/consultant",
         "text": "首页",
         "iconPath": "./res/tabBarIcon/icon_home.png",
         "selectedIconPath": "./res/tabBarIcon/icon_home_active.png"

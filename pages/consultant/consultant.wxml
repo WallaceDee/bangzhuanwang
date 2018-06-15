@@ -1,0 +1,47 @@
+<!--pages/consultant/consultant.wxml-->
+<view class="container">
+  <image class="banner" mode="aspectFill" src="../../res/tempImages/consultant.jpg"></image>
+
+  <view class="name">
+    <text>帮转网知识产权顾问：吴彦祖</text>
+  </view>
+
+  <view class="digital">
+    <view>
+      <text>30</text>
+      <text>咨询数量</text>
+    </view>
+    <view>
+      <text>17</text>
+      <text>服务用户数</text>
+    </view>
+  </view>
+
+  <view class="information">
+    <view>
+      <text>手机</text>
+      <text>13800138000</text>
+      <image mode="aspectFit" src="../../res/images/list_icon_shouji_normal@2x.png"></image>
+    </view>
+    <view>
+      <text>微信</text>
+      <text>13800138000</text>
+      <image mode="aspectFit" src="../../res/images/list_icon_chakan_normal@2x.png"></image>
+    </view>
+    <view>
+      <text>Q  Q</text>
+      <text>13800138000</text>
+      <image mode="aspectFit" src="../../res/images/list_icon_QQ_normal@2x.png"></image>
+    </view>
+    <view>
+      <text>邮箱</text>
+      <text>13800138000@163.com</text>
+      <image mode="aspectFit" src="../../res/images/list_icon_youxiang_normal @2x.png"></image>
+    </view>
+  </view>
+
+  <view class="buttons-row">
+    <button>返回首页</button>
+    <button>为他推荐</button>
+  </view>
+</view>
