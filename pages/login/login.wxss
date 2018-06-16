@@ -1,0 +1,98 @@
+/* pages/login/login.wxss */
+
+.logo {
+  display: block;
+  height: 140rpx;
+  margin-top: 100rpx;
+}
+
+.swiper-tab {
+  margin-top: 100rpx;
+  width: 100%;
+  text-align: center;
+  line-height: 100rpx;
+  height: 100rpx;
+  border-bottom: 1rpx solid #e7e7e7;
+  display: flex;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: block;
+  flex: 1;
+  position: relative;
+}
+
+.swiper-tab-list:first-child::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1rpx;
+  height: 60%;
+  right: 0;
+  top: 20%;
+  background-color: #e7e7e7;
+}
+
+.on:after {
+  content: '';
+  display: block;
+  width: 30%;
+  margin-left: 35%;
+  position: absolute;
+  border-bottom: 4rpx solid #22cdc4;
+  bottom: 0x;
+}
+
+.swiper-box {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-box view {
+  text-align: center;
+}
+
+.content{
+  width: 100%;
+  padding: 0 10%;
+  box-sizing: border-box;
+  margin-top: 50rpx;
+}
+
+.content .input-row{
+  display: flex;
+  height: 80rpx;
+line-height: 80rpx;
+  margin-bottom: 20rpx;
+  border-radius: 40rpx;
+  border: 1rpx solid #e7e7e7;
+  font-size: 14px;
+}
+.content .input-row text{
+  width: 100rpx;
+  text-align: center;
+  padding-left: 20rpx;
+}
+.content .input-row button{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 40rpx;
+  border-bottom-right-radius: 40rpx;
+  height: 80rpx;
+  font-size: 14px;
+  background-color: #FEDA4A;
+  color: #666;
+  width: 250rpx;
+  padding-left:5px;
+padding-right:5px;
+
+}
+.content .input-row input{
+  width: 65%;
+display: block;
+height: 80rpx;
+  padding-left: 20rpx;
+}

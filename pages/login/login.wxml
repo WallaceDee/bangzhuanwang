@@ -1,0 +1,21 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <image class="logo" mode="aspectFit" src="../../res/images/logo-green.png"></image>
+  <view class="swiper-tab">
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="switchNav">手机号</view>
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="switchNav">已有帮专网账号</view>
+  </view>
+
+  <view class="content" hidden="{{!isShow}}">
+    <view class="input-row">
+      <text>+86</text>
+      <input type="number" placeholder="输入手机号"></input>
+      <button>获取动态码</button>
+    </view>
+    <view class="input-row">
+      <text>动态码</text>
+      <input type="number" placeholder="输入动态码"></input>
+    </view>
+  </view>
+  <view class="content" hidden="{{isShow}}">游戏列表</view>
+</view>

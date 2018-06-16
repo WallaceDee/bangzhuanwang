@@ -1,28 +1,28 @@
 /* pages/share/share.wxss */
 
 .container {
-  background-color: #eee;
+  background-color: #F6F7F8;
   height: 100%;
 }
 
 .surface {
-  margin-top: 50rpx;
+  margin-top: 30rpx;
   height: 800rpx;
 }
 
 .type {
   display: flex;
   background-color: #fff;
-  width: 95%;
+  width: 90%;
   padding: 40rpx;
   box-sizing: border-box;
-  margin-top: 20rpx;
+  margin-top: 30rpx;
 }
 
 .type image {
   display: block;
-  width: 120rpx;
-  height: 120rpx;
+  width: 100rpx;
+  height: 100rpx;
   margin: 0 auto;
 }
 
@@ -30,6 +30,7 @@
   display: block;
   text-align: center;
   font-size: 14px;
+  color: #333;
 }
 
 .type>view {
@@ -37,8 +38,12 @@
 }
 
 .cancel-btn {
-  width: 95%;
-  margin-top: 10rpx;
-  margin-bottom: 10rpx;
+  width: 90%;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
   font-size: 16px;
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+  color: #333;
 }

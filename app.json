@@ -1,21 +1,20 @@
 {
   "pages": [
-    "pages/share/share",
     "pages/category/category",
+    "pages/detail/detail",
     "pages/service/service",
-    "pages/me/me",
-    "pages/detail/detail"
+    "pages/me/me"
   ],
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/consultant/consultant",
+        "pagePath": "pages/category/category",
         "text": "首页",
         "iconPath": "./res/tabBarIcon/icon_home.png",
         "selectedIconPath": "./res/tabBarIcon/icon_home_active.png"
       },
       {
-        "pagePath": "pages/category/category",
+        "pagePath": "pages/detail/detail",
         "text": "分类",
         "iconPath": "./res/tabBarIcon/icon_category.png",
         "selectedIconPath": "./res/tabBarIcon/icon_category_active.png"

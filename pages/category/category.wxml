@@ -1,13 +1,33 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+
+  <view class="search-bar">
+    <view bindtap="switchMenu" class="{{menuVisible==true? 'close' : ''}}">
+      <image mode="aspectFit" src="../../res/images/icon_fenlei_normal@2x.png"></image>
+    </view>
+    <view>
+      <input type="text" placeholder="搜索您需要的知识产权服务"></input>
+      <image mode="aspectFit" src="../../res/images/icon_sousuo_normal copy@2x.png"></image>
+    </view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+
+  <view class="content">
+    <scroll-view scroll-y class="aside" hidden="{{!menuVisible}}" bindtap="switchTabs">
+      <view class="{{tabArr.curHdIndex=='0'? 'active' : ''}}" id="tab-hd01" data-id="0">商标申请</view>
+      <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id="tab-hd02" data-id="1">专利申请</view>
+      <view class="{{tabArr.curHdIndex=='2'? 'active' : ''}}" id="tab-hd03" data-id="2">科技项目</view>
+      <view class="{{tabArr.curHdIndex=='3'? 'active' : ''}}" id="tab-hd04" data-id="3">版权服务</view>
+    </scroll-view>
+    <view class="main">
+      <scroll-view scroll-y class="{{tabArr.curBdIndex=='0'? 'active' : ''}}">
+        <view class="title">
+          <text>商标</text>
+        </view>
+      </scroll-view>
+      <scroll-view class="{{tabArr.curBdIndex=='1'? 'active' : ''}}">tab-bd02</scroll-view>
+      <scroll-view class="{{tabArr.curBdIndex=='2'? 'active' : ''}}">tab-bd03</scroll-view>
+      <scroll-view class="{{tabArr.curBdIndex=='3'? 'active' : ''}}">tab-bd04</scroll-view>
+    </view>
   </view>
+
 </view>

@@ -36,7 +36,7 @@
   width: initial;
 }
 
-.section .title.is-link::after {
+.section .title.is-link:after {
   border: 1rpx solid #c8c8cd;
   border-bottom-width: 0;
   border-left-width: 0;

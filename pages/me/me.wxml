@@ -1,13 +1,89 @@
-<!--index.wxml-->
+<!--me.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+  <view class="header">
+    <view class="border">
+      <view>
+        <image mode="aspectFit" src="../../res/tempImages/hot (4).jpg"></image>
+      </view>
+    </view>
+    <view>
+      <text>服务顾问</text> </view>
+    <view>
+      <button>账号管理</button>
+    </view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+
+  <view class="content" wx:if="{{isUser}}">
+    <view class="section">
+      <view class="title">
+        <text>我的服务顾问</text>
+      </view>
+      <view class="border-wrapper row>">
+        <view class="is-link">
+          <image mode="aspectFit" src="../../res/images/list_icon_chakan_normal1@2x.png"></image>
+          <text>查看服务顾问详情</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="section">
+      <view class="title">
+        <text>小工具</text>
+      </view>
+      <view class="border-wrapper tool row">
+        <view class="is-link">
+          <image mode="aspectFit" src="../../res/images/list_icon_tuijian_normal@2x.png"></image>
+          <view>
+            <text>推荐服务顾问</text>
+            <text>动动手指为好友推荐您的服务顾问</text>
+          </view>
+        </view>
+        <view class="is-link">
+          <image mode="aspectFit" src="../../res/images/list_icon_fenxiangbanzhuang_normal@2x.png"></image>
+          <view>
+            <text>分享帮专网</text>
+            <text>分享帮专网</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="content" wx:if="{{!isUser}}">
+    <view class="section">
+      <view class="title">
+        <text>推广数据</text>
+      </view>
+      <view class="border-wrapper digital">
+        <view>
+          <text>22</text>
+          <text>注册用户数</text>
+        </view>
+        <view>
+          <text>13</text>
+          <text>咨询数量</text>
+        </view>
+        <view>
+          <text>18</text>
+          <text>推荐次数</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="section">
+      <view class="title">
+        <text>小工具</text>
+      </view>
+      <view class="border-wrapper tool">
+        <view class="is-link">
+          <text>知识库</text>
+        </view>
+        <view class="is-link">
+          <text>修改个人资料</text>
+        </view>
+      </view>
+    </view>
+
   </view>
 </view>

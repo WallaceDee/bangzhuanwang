@@ -30,7 +30,7 @@
 }
 
 .digital>view:nth-child(1) {
-  border-right: 1rpx solid rgba(0, 0, 0, 0.3);
+  border-right: 1rpx solid #E7E7E7;
 }
 
 .digital>view text {
@@ -60,7 +60,7 @@
   justify-content: space-between;
   height: 75rpx;
   line-height: 75rpx;
-  border-bottom: 1rpx solid #acacac;
+  border-bottom: 1rpx solid #E7E7E7;
   align-items: center;
 }
 

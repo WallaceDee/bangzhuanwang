@@ -32,6 +32,25 @@
 
   <view class="section">
     <view class="title">
+      <text>服务流程与时间</text>
+    </view>
+    <view class="ul">
+      <view class="li square">
+        <text>从申请到下证一般需要12个月左右</text>
+      </view>
+      <view class="li square process">
+        <text>01检索分析</text>
+        <text>02给出保护方案</text>
+        <text>03材料准备</text>
+        <text>04递交商标局</text>
+        <text>05状态监控</text>
+        <text>06获得证书</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="title">
       <text>所需材料</text>
     </view>
     <view class="ul">
@@ -99,8 +118,8 @@
       </view>
     </view>
   </view>
-
-  <view>
-
+  <view class="buttons-row">
+    <button>立即申请</button>
+    <button>立即咨询</button>
   </view>
 </view>

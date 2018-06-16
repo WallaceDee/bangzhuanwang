@@ -47,4 +47,8 @@
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
+  color: #333;
+} 
+button:after {
+  border: 0;
 } 
