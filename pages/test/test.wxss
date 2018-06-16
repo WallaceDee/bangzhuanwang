@@ -1,0 +1,6 @@
+/* pages/test/test.wxss */
+navigator{
+  font-size: 16px;
+  text-align: center;
+  margin: 30rpx;
+}

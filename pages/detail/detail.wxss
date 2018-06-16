@@ -81,7 +81,9 @@ margin-left: 5rpx;
   top: 50%;
   transform: translateY(-50%);
 }
-
+.section .process:before {
+  top: 15rpx;
+}
 .section .square:before{
   border-radius: 0!important;
 }
@@ -90,6 +92,7 @@ margin-left: 5rpx;
   display: flex;
   flex-wrap:wrap;
   align-items: baseline;
+  
 
 }
 .process>text{

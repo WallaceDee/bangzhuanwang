@@ -14,7 +14,7 @@
       <navigator url="/pages/detail/detail" open-type="redirect">查看全部</navigator>
     </view>
     <view class="border-wrapper category-list">
-      <view wx:for="{{category}}" wx:key="index">
+      <view class="item" wx:for="{{category}}" wx:key="index">
         <image src="{{item.iconUrl}}"></image>
         <text>{{item.name}}</text>
       </view>
@@ -26,7 +26,7 @@
       <text>热门推荐</text>
     </view>
     <view class="border-wrapper hot-list">
-      <view wx:for="{{hot}}" wx:key="index">
+      <view class="item" wx:for="{{hot}}" wx:key="index">
         <image src="{{item.imgUrl}}" mode="aspectFill"></image>
         <view class="info">
           <text>{{item.title}}</text>
@@ -40,15 +40,27 @@
     <view class="title is-link">
       <text>商标服务</text>
     </view>
-    <view class="border-wrapper item-list red-icon">
+    <view class="border-wrapper item-list">
       <view wx:for="{{service}}" wx:key="index">
-        <text class="icon-book"></text> {{item.name}}
+        <image mode="aspectFit" src="../../res/tempImages/icon_shangbiaofushen_normal@2x.png"></image>
+        <text>{{item.name}}</text>
+      </view>
+    </view>
+  </view>
+    <view class="section">
+    <view class="title is-link">
+      <text>专利服务</text>
+    </view>
+    <view class="border-wrapper item-list">
+      <view wx:for="{{service}}" wx:key="index">
+        <image mode="aspectFit" src="../../res/tempImages/icon_shangbiaofushen_normal@2x.png"></image>
+        <text>{{item.name}}</text>
       </view>
     </view>
   </view>
 
   <view class="tel-wrapper">
-    <text class="icon-book"></text>
+   <image mode="aspectFit" src="../../res/images/icon_dianhua_normal @2x.png"></image>
     <text>020-28105110</text>
   </view>
 

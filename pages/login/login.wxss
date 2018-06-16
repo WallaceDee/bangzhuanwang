@@ -55,44 +55,57 @@
   text-align: center;
 }
 
-.content{
+.content {
   width: 100%;
   padding: 0 10%;
   box-sizing: border-box;
   margin-top: 50rpx;
 }
 
-.content .input-row{
+.content .input-row {
   display: flex;
   height: 80rpx;
-line-height: 80rpx;
+  line-height: 80rpx;
   margin-bottom: 20rpx;
   border-radius: 40rpx;
   border: 1rpx solid #e7e7e7;
   font-size: 14px;
 }
-.content .input-row text{
+
+.content .input-row text {
   width: 100rpx;
   text-align: center;
   padding-left: 20rpx;
 }
-.content .input-row button{
+
+.content .input-row button {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border-top-right-radius: 40rpx;
   border-bottom-right-radius: 40rpx;
   height: 80rpx;
   font-size: 14px;
-  background-color: #FEDA4A;
+  background-color: #feda4a;
   color: #666;
   width: 250rpx;
-  padding-left:5px;
-padding-right:5px;
-
+  padding-left: 5px;
+  padding-right: 5px;
 }
-.content .input-row input{
+
+.content .input-row input {
   width: 65%;
-display: block;
-height: 80rpx;
+  display: block;
+  height: 80rpx;
   padding-left: 20rpx;
+}
+
+.login-btn {
+  width: 80%;
+  font-size: 16px;
+  background-color: #22cdc4;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #fff;
+  border-radius: 40rpx;
+  margin-top: 50rpx;
 }

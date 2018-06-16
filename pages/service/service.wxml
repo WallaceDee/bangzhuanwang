@@ -1,8 +1,9 @@
 <!--service.wxml-->
 <view class="container">
-    <view class="userinfo">
-        <image class="no-data" src="../../res/service/no_data.png" mode="cover"></image>
-        <text class="tips">您还没和帮专小将聊过天哦</text>
-        <button class="service-btn"> 立即咨询 </button>
-    </view>
+  <view class="userinfo">
+    <!-- 图是我自己切的，码率有点低。。你换吧 -->
+    <image class="no-data" src="../../res/images/no_data.png" mode="cover"></image>
+    <text class="tips">您还没和帮专小将聊过天哦</text>
+    <button class="service-btn"> 立即咨询 </button>
+  </view>
 </view>

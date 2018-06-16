@@ -15,7 +15,7 @@ page{
   margin-bottom: 20rpx;
 }
 
-.search-bar view:nth-child(1)>image {
+.search-bar view:nth-child(1) image {
   display: block;
   width: 60rpx;
   height: 60rpx;
@@ -56,7 +56,7 @@ page{
   padding-right: 30rpx;
 }
 
-.search-bar  view:nth-child(2)>image {
+.search-bar  view:nth-child(2) image {
   width: 40rpx;
   height: 40rpx;
   margin-left: 30rpx;
@@ -93,7 +93,7 @@ background-color: #fff;
 }
 .main scroll-view{  
     display: none;  
-    width: 100%;
+    width: 100%;height: 100%;
 }  
 .main scroll-view.active{  
     display: block;  
@@ -115,6 +115,30 @@ background-color: #fff;
    position: absolute;
    left: 20rpx;
    }
-.main{
- 
+.main .list {
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ padding: 20rpx 40rpx;
+}
+.main .list .item{
+  width: 17%;
+  margin: 20rpx 4%;
+text-align: center;
+font-size: 14px;
+
+}
+.main .list .item image{
+  display: block;
+  margin: 0 auto;
+  width: 80rpx;
+  height: 80rpx;
+}
+.main .list text{
+
+}
+
+.main.three .list .item{
+  width:24%;
+    margin: 0 4%;
 }

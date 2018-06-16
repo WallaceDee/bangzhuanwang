@@ -1,0 +1,10 @@
+<!--pages/test/test.wxml-->
+<navigator url="/pages/index/index">首页pages/index/index.wxml</navigator>
+<navigator url="/pages/category/category">分类pages/category/category.wxml</navigator>
+<navigator url="/pages/detail/detail">详情pages/detail/detail.wxml</navigator>
+<navigator url="/pages/service/service">咨询pages/service/service.wxml</navigator>
+<navigator url="/pages/consultant/consultant">顾问详情pages/consultant/consultant.wxml</navigator>
+<navigator url="/pages/share/share">分享pages/share/share.wxml</navigator>
+<navigator url="/pages/me/me">我的（顾问、用户）pages/me/me.wxml</navigator>
+<navigator url="/pages/login/login">登录pages/login/login.wxml</navigator>
+

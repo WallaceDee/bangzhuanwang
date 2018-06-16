@@ -37,7 +37,7 @@
 }
 
 .section .title.is-link:after {
-  border: 1rpx solid #c8c8cd;
+  border: 1rpx solid #666;
   border-bottom-width: 0;
   border-left-width: 0;
   content: " ";
@@ -67,18 +67,19 @@
   padding: 30rpx 10rpx;
 }
 
-.section .category-list>view {
+.section .category-list .item {
   flex: 1;
+  display: block;
 }
 
-.section .category-list view image {
+.section .category-list .item image {
   width: 80rpx;
   height: 80rpx;
   margin: 0 auto;
   display: block;
 }
 
-.section .category-list view>text {
+.section .category-list .item text {
   font-size: 12px;
   display: block;
   text-align: center;
@@ -89,7 +90,7 @@
   padding: 20rpx 10rpx;
 }
 
-.section .hot-list>view {
+.section .hot-list .item {
   display: flex;
   flex-direction: row;
   padding: 15rpx;
@@ -103,7 +104,7 @@
 }
 
 .section .hot-list view.info {
-  border-bottom: 1rpx solid #e1e1e1;
+  border-bottom: 1rpx solid #e7e7e7;
   width: 90%;
   position: relative;
 }
@@ -147,13 +148,12 @@
   margin: 10rpx 0;
 }
 
-.section .item-list [class^="icon-"] {
-  font-size: 18px;
-  vertical-align: middle;
-}
-
-.section .item-list.red-icon [class^="icon-"] {
-  color: #f95f72;
+.section .item-list>view image {
+  display: inner-block;
+  vertical-align: -15rpx;
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 10rpx;
 }
 
 .tel-wrapper {
@@ -165,6 +165,13 @@
   color: #22cdc4;
   font-weight: normal;
   font-size: 20px;
+  margin: 50rpx;
+}
+
+.tel-wrapper image {
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: -3rpx;
 }
 
 .tel-wrapper text {

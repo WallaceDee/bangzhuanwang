@@ -18,10 +18,28 @@
       <view class="{{tabArr.curHdIndex=='2'? 'active' : ''}}" id="tab-hd03" data-id="2">科技项目</view>
       <view class="{{tabArr.curHdIndex=='3'? 'active' : ''}}" id="tab-hd04" data-id="3">版权服务</view>
     </scroll-view>
-    <view class="main">
+    <view class="main {{menuVisible==true? 'three' : 'four'}}">
       <scroll-view scroll-y class="{{tabArr.curBdIndex=='0'? 'active' : ''}}">
         <view class="title">
-          <text>商标</text>
+          <text>商标申请</text>
+        </view>
+        <view class="list">
+          <view class="item">
+            <image mode="aspectFit" src="../../res/tempImages/tixirenzheng_icon_ISO9001__normal@2x.png"></image>
+            <text>ISO9001体系认证</text>
+          </view>
+          <view class="item">
+            <image mode="aspectFit" src="../../res/tempImages/tixirenzheng_icon_ISO14001__normal@2x.png"></image>
+            <text>ISO14001体系认证</text>
+          </view>
+          <view class="item">
+            <image mode="aspectFit" src="../../res/tempImages/tixirenzheng_icon_ISO270001__normal@2x.png"></image>
+            <text>ISO270001体系认证</text>
+          </view>
+          <view class="item">
+            <image mode="aspectFit" src="../../res/tempImages/tixirenzheng_icon_AAAxinyongrenzheng__normal @2x.png"></image>
+            <text>ISO9001体系认证</text>
+          </view>
         </view>
       </scroll-view>
       <scroll-view class="{{tabArr.curBdIndex=='1'? 'active' : ''}}">tab-bd02</scroll-view>

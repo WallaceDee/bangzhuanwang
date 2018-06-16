@@ -17,5 +17,15 @@
       <input type="number" placeholder="输入动态码"></input>
     </view>
   </view>
-  <view class="content" hidden="{{isShow}}">游戏列表</view>
+  <view class="content" hidden="{{isShow}}">
+    <view class="input-row">
+      <text>+86</text>
+      <input type="number" placeholder="输入手机号"></input>
+    </view>
+    <view class="input-row">
+      <text>密码</text>
+      <input type="number" placeholder="输入密码"></input>
+    </view>
+  </view>
+  <button class="login-btn">登录</button>
 </view>
