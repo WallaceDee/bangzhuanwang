@@ -12,21 +12,24 @@ image.banner {
 }
 
 .section {
+    position: relative;
+    z-index: 2;
   background-color: #fff;
   width: 90%;
   padding: 100rpx 20rpx 20rpx 20rpx;
   box-sizing: border-box;
   margin-top: 20rpx;
   margin-bottom: 20rpx;
-  position: relative;
+
 }
 
 .section .title {
+  position: absolute;
+  z-index: 2;
   display: inline-block;
   background-color: #649bf7;
   color: #fff;
   padding: 5rpx 40rpx;
-  position: absolute;
   left: -22rpx;
   top: 20rpx;
   font-size: 18px;
@@ -44,7 +47,7 @@ image.banner {
 .price text:last-child{
 color: #666;
 font-size: 12px;
-margin-left: 5rpx;
+margin-left: 20rpx;
 }
 .section .title:before {
   position: absolute;
@@ -53,8 +56,8 @@ margin-left: 5rpx;
   border-bottom: 16rpx solid #649bf7;
   border-left: 16rpx solid transparent;
   transform: rotate(45deg);
-  bottom: -11rpx;
-  left: 2rpx;
+  bottom: -12rpx;
+  left:2rpx;
 }
 
 .section .ul {
@@ -149,6 +152,7 @@ margin-left: 5rpx;
 .buttons-row {
   height: 100rpx;
   position: fixed;
+  z-index: 3;
   bottom: 0;
   width: 100%;
   display: flex;

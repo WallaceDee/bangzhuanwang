@@ -87,9 +87,10 @@
   font-size: 14px;
   background-color: #feda4a;
   color: #666;
-  width: 250rpx;
+  width: 260rpx;
   padding-left: 5px;
   padding-right: 5px;
+  text-align: center;
 }
 
 .content .input-row input {

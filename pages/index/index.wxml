@@ -40,9 +40,9 @@
     <view class="title is-link">
       <text>商标服务</text>
     </view>
-    <view class="border-wrapper item-list">
+    <view class="border-wrapper item-list red-icon">
       <view wx:for="{{service}}" wx:key="index">
-        <image mode="aspectFit" src="../../res/tempImages/icon_shangbiaofushen_normal@2x.png"></image>
+        <text class="icon-shangbiaofushen"></text>
         <text>{{item.name}}</text>
       </view>
     </view>
@@ -60,7 +60,7 @@
   </view>
 
   <view class="tel-wrapper">
-   <image mode="aspectFit" src="../../res/images/icon_dianhua_normal @2x.png"></image>
+   <text class="icon-dianhua_normal"></text>
     <text>020-28105110</text>
   </view>
 

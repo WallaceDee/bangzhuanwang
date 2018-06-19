@@ -5,6 +5,7 @@
   width: 90%;
   border-radius: 30rpx;
   margin-top: 20rpx;
+  margin-bottom: 48rpx;
 }
 
 .swiper image {
@@ -37,20 +38,21 @@
 }
 
 .section .title.is-link:after {
-  border: 1rpx solid #666;
+  border: 1rpx solid #5D5F6A;
   border-bottom-width: 0;
   border-left-width: 0;
   content: " ";
   top: 50%;
-  right: -20rpx;
+  right: -40rpx;
   position: absolute;
-  width: 15rpx;
-  height: 15rpx;
+  width: 10rpx;
+  height: 10rpx;
   transform: translateY(-50%) rotate(45deg);
 }
 
 .section .border-wrapper {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); */
+  box-shadow:0 0px 10rpx 1rpx rgba(50, 50, 50, 0.1);
   border-radius: 20rpx;
 }
 
@@ -104,13 +106,13 @@
 }
 
 .section .hot-list view.info {
-  border-bottom: 1rpx solid #e7e7e7;
-  width: 90%;
+  border-bottom: 1rpx solid #efefef;
+  width: 80%;
   position: relative;
 }
 
 .section .hot-list view.info::after {
-  border: 1rpx solid #c8c8cd;
+  border: 1rpx solid #5D5F6A;
   border-bottom-width: 0;
   border-left-width: 0;
   content: " ";
@@ -148,11 +150,24 @@
   margin: 10rpx 0;
 }
 
+.section .item-list>view text:first-child {
+  display: inner-block;
+  margin-right: 10rpx;
+  font-size: 20px;
+  vertical-align: middle
+}
+
+.section .item-list>view text:nth-child(2) {
+color: #333;
+}
+.red-icon{
+  color: #F95F72
+}
 .section .item-list>view image {
   display: inner-block;
-  vertical-align: -15rpx;
-  width: 50rpx;
-  height: 50rpx;
+  vertical-align: -12rpx;
+  width: 45rpx;
+  height: 45rpx;
   margin-right: 10rpx;
 }
 
@@ -160,7 +175,8 @@
   height: 70rpx;
   line-height: 70rpx;
   padding: 0 80rpx;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); */
+    box-shadow:0 0px 10rpx 1rpx rgba(50, 50, 50, 0.1);
   border-radius: 35rpx;
   color: #22cdc4;
   font-weight: normal;
@@ -168,16 +184,14 @@
   margin: 50rpx;
 }
 
-.tel-wrapper image {
-  width: 50rpx;
-  height: 50rpx;
-  vertical-align: -3rpx;
-}
-
 .tel-wrapper text {
   margin: 0 15rpx;
+  font-size: 18px;
 }
 
+.tel-wrapper text:first-child {
+  font-size:20px;
+}
 .cooperation {
   width: 100%;
   height: 200rpx;

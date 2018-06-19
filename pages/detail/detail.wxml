@@ -35,10 +35,10 @@
       <text>服务流程与时间</text>
     </view>
     <view class="ul">
-      <view class="li square">
+      <view class="li">
         <text>从申请到下证一般需要12个月左右</text>
       </view>
-      <view class="li square process">
+      <view class="li process">
         <text>01检索分析</text>
         <text>02给出保护方案</text>
         <text>03材料准备</text>
