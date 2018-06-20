@@ -8,7 +8,7 @@
 
   <view class="content" hidden="{{!isShow}}">
     <view class="input-row">
-      <text>+86　　</text>
+      <text decode="true">&nbsp;+86　　</text>
       <input type="number" placeholder="输入手机号"></input>
       <button>获取动态码</button>
     </view>

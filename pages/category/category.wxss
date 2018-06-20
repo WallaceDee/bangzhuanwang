@@ -64,9 +64,9 @@ page{
 }
 
 .search-bar input {
-  height: 68rpx;
+  height: 60rpx;
   font-size: 12px;
-  line-height: 68rpx;
+  line-height: 60rpx;
   width: 100%;
   text-align: center;
 }
@@ -86,8 +86,8 @@ page{
 .aside view{
   font-size: 15px;
   text-align: center;
-  height: 150rpx;
-  line-height: 150rpx;
+  height: 200rpx;
+  line-height:200rpx;
   font-weight: 600;
 }
 .aside view.active{
@@ -102,10 +102,11 @@ background-color: #fff;
 }
 
 .main .title{
-  font-size: 18px;
+  font-size: 16px;
   padding-left: 40rpx;
-  font-weight: bold;
+  font-weight: 600;
   position: relative;
+  margin-top: 64rpx;
 }
 .main .title:before{
   content: '';

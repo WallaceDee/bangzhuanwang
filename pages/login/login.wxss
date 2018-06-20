@@ -68,7 +68,7 @@
   line-height: 80rpx;
   margin-bottom: 20rpx;
   border-radius: 40rpx;
-  border: 1rpx solid #e7e7e7;
+  border: 1rpx solid #D7D7D9;
   font-size: 14px;
 }
 
@@ -79,11 +79,13 @@
 }
 
 .content .input-row button {
+  display: block;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border-top-right-radius: 40rpx;
   border-bottom-right-radius: 40rpx;
   height: 80rpx;
+  line-height: 80rpx;
   font-size: 14px;
   background-color: #feda4a;
   color: #666;

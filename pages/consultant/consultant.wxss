@@ -48,7 +48,8 @@
 
 .information {
   width: 90%;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); */
+  box-shadow:0 0px 10rpx 1rpx rgba(50, 50, 50, 0.1);
   border-radius: 10rpx;
   padding: 10rpx 20rpx;
   box-sizing: border-box;
@@ -95,12 +96,14 @@
   border-right: 1rpx solid #fff;
 }
 .buttons-row button {
+  display: block;
   width: 50%;
   border-radius: 0;
   border: none;
   background-color: #22cdc4;
   color: #fff;
   font-size: 16px;
-  height: 80rpx;
+  height: 88rpx;
+  line-height: 88rpx;
   text-align: center;
 }

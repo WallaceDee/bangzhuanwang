@@ -27,7 +27,6 @@
   width: 100%;
   font-weight: bold;
   justify-content: space-between;
-  height: 45rpx;
   font-size: 18px;
   position: relative;
 }
@@ -38,7 +37,7 @@
 }
 
 .section .title.is-link:after {
-  border: 1rpx solid #5D5F6A;
+  border: 2rpx solid #5D5F6A;
   border-bottom-width: 0;
   border-left-width: 0;
   content: " ";
@@ -99,8 +98,9 @@
 }
 
 .section .hot-list>view image {
-  width: 100rpx;
-  height: 100rpx;
+  display: block;
+  width: 108rpx;
+  height: 108rpx;
   margin-right: 20rpx;
   border-radius: 10rpx;
 }
@@ -112,7 +112,7 @@
 }
 
 .section .hot-list view.info::after {
-  border: 1rpx solid #5D5F6A;
+  border: 2rpx solid #5D5F6A;
   border-bottom-width: 0;
   border-left-width: 0;
   content: " ";
