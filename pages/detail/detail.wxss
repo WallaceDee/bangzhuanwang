@@ -56,8 +56,8 @@ margin-left: 20rpx;
   border-bottom: 16rpx solid #649bf7;
   border-left: 16rpx solid transparent;
   transform: rotate(45deg);
-  bottom: -12rpx;
-  left:2rpx;
+  bottom: -13rpx;
+  left:1rpx;
 }
 
 .section .ul {
