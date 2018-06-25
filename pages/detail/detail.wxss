@@ -36,6 +36,16 @@ image.banner {
   height: 55rpx;
   line-height: 55rpx;
 }
+.section .title:before {
+  position: absolute;
+  content: '';
+  border-right: 16rpx solid transparent;
+  border-bottom: 16rpx solid #649bf7;
+  border-left: 16rpx solid transparent;
+  transform: rotate(45deg);
+  bottom: -11rpx;
+  left:1rpx;
+}
 
 .description {
   color: #666;
@@ -48,16 +58,6 @@ image.banner {
 color: #666;
 font-size: 12px;
 margin-left: 20rpx;
-}
-.section .title:before {
-  position: absolute;
-  content: '';
-  border-right: 16rpx solid transparent;
-  border-bottom: 16rpx solid #649bf7;
-  border-left: 16rpx solid transparent;
-  transform: rotate(45deg);
-  bottom: -13rpx;
-  left:1rpx;
 }
 
 .section .ul {

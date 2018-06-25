@@ -265,17 +265,3 @@
 
 .icon-list_icon_tuijian_no:before { content: "\e699"; }
 
-
-
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-  color: #333;
-} 
-button:after {
-  border: 0;
-} 

@@ -36,31 +36,22 @@
     </view>
   </view>
 
-  <view class="section">
+  <view wx:for="{{service}}" wx:key="index" class="section">
     <view class="title is-link">
-      <text>商标服务</text>
+      <text>{{item.title}}</text>
     </view>
-    <view class="border-wrapper item-list red-icon">
-      <view wx:for="{{service}}" wx:key="index">
-        <text class="icon-shangbiaofushen"></text>
-        <text>{{item.name}}</text>
+    <view class="border-wrapper item-list" style="color:{{item.color}}">
+      <view wx:for="{{item.list}}" wx:key="index" wx:for-item="items">
+        <text class="iconfont {{items.icon}}"></text>
+        <view>{{items.name}}<text class="label">{{items.label}}</text></view>
+
       </view>
-    </view>
-  </view>
-    <view class="section">
-    <view class="title is-link">
-      <text>专利服务</text>
-    </view>
-    <view class="border-wrapper item-list">
-      <view wx:for="{{service}}" wx:key="index">
-        <image mode="aspectFit" src="../../res/tempImages/icon_shangbiaofushen_normal@2x.png"></image>
-        <text>{{item.name}}</text>
-      </view>
+
     </view>
   </view>
 
   <view class="tel-wrapper">
-   <text class="icon-dianhua_normal"></text>
+    <text class="iconfont icon-icon_dianhua_normal"></text>
     <text>020-28105110</text>
   </view>
 

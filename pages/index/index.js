@@ -64,24 +64,119 @@ Page({
       }
     ],
     service: [{
-      icon: 'icon-w',
-      name: '商标申请'
-    }, {
-      icon: 'icon-w',
-      name: '商标变更'
-    }, {
-      icon: 'icon-w',
-      name: '商标复审'
-    }, {
-      icon: 'icon-w',
-      name: '涉外商标'
-    }, {
-      icon: 'icon-w',
-      name: '商标交易'
-    }, {
-      icon: 'icon-w',
-      name: '商标投资'
-    }]
+        title: '商标服务',
+        color:'#f95f72',
+        list: [{
+          icon: '.icon-icon_shangbiaoshenqi',
+          name: '商标申请'
+        }, {
+          icon: '.icon-icon_shangbiaogenghu',
+          name: '商标变更'
+        }, {
+          icon: '.icon-icon_shangbiaofushen',
+          name: '商标复审'
+        }, {
+          icon: '.icon-icon_shewaishangbiao',
+          name: '涉外商标'
+        }, {
+          icon: '.icon-icon_shangbiaojiaoyi',
+          name: '商标交易'
+        }, {
+          icon: '.icon-icon_shangbiaotouzi_',
+          name: '商标投资'
+        }]
+      },
+      {
+        title: '专利服务',
+        color: '#22cdc4',
+        list: [{
+          icon: '.icon-icon_famingshenqing_',
+          name: '发明专利'
+        }, {
+          icon: '.icon-icon_shiyongshenqing',
+          name: '实用申请'
+        }, {
+          icon: '.icon-icon_waiguanshenqing',
+          name: '外观申请'
+        }, {
+          icon: '.icon-icon_PCTzhuanli_norm',
+          name: 'PCT专利'
+        }, {
+          icon: '.icon-icon_guwendaojia_nor',
+          name: '顾问到家'
+        }, {
+          icon: '.icon-icon_zhuanlifenxi_no',
+          name: '专利分析'
+        }]
+      },
+      {
+        title: '科技项目',
+        color:'#588ddf',
+        list: [{
+          icon: '.icon-icon_gaoqirending_no',
+          name: '高企认定'
+        }, {
+          icon: '.icon-icon_kejixiaojuren_n',
+          name: '科技小巨人'
+        }, {
+          icon: '.icon-icon_qiyeyanfajigou_',
+          name: '研发机构'
+        }, {
+          icon: '.icon-icon_gaopinrending_n',
+          name: '高品认定'
+        }, {
+          icon: '.icon-icon_zhuanlichanyehu',
+          name: '专利产业化'
+        }, {
+          icon: '.icon-icon_jiajikouchuhoub',
+          name: '加计扣除'
+        }]
+      },
+      {
+        title: '版权服务',
+        color:'#99b6f7',
+        list: [{
+          icon: '.icon-icon_ruanjianzhuzuoq',
+          name: '软件著作权'
+        }, {
+          icon: '.icon-icon_meishuzuopin_no',
+          name: '美术作品'
+        }, {
+          icon: '.icon-icon_wenzizuopin_nor',
+          name: '文字作品'
+        }]
+      },
+      {
+        title: '体系认证',
+        color:'#9ed662',
+        list: [{
+          icon: '.icon-tixirenzheng_icon_IS',
+          name: 'ISO9001',
+          label: '质量体系'
+        }, {
+          icon: '.icon-tixirenzheng_icon_IS1',
+          name: 'ISO14001',
+          label: '信息安全体系'
+        }, {
+          icon: '.icon-tixirenzheng_icon_IS2',
+          name: 'ISO27001',
+          label: '环境体系'
+        }]
+      }, {
+        title: '企业服务',
+        color:'#ffb741',
+        list: [{
+          icon: '.icon-icon_xiaochegnxu_nor',
+          name: '小程序开发'
+        }, {
+            icon: '.icon-icon_visheji_normal',
+          name: '企业VI设计'
+        }, {
+            icon: '.icon-icon_logosheji_norma',
+          name: 'Logo设计'
+        }]
+      }
+    ]
   },
   //事件处理函数
   bindViewTap: function() {

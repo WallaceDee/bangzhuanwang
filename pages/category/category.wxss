@@ -10,9 +10,8 @@ page{
   display: flex;
   padding: 0 40rpx;
   box-sizing: border-box;
-  height: 70rpx;
+  height: 80rpx;
   align-items: center;
-  margin-bottom: 20rpx;
 }
 
 .search-bar view:nth-child(1) image {
@@ -82,6 +81,8 @@ page{
 }
 .content .main{
   width:100%;
+  height: 100%;
+  position: relative;
 }
 .aside view{
   font-size: 15px;
@@ -106,14 +107,14 @@ background-color: #fff;
   padding-left: 40rpx;
   font-weight: 600;
   position: relative;
-  margin-top: 64rpx;
+  padding-top: 64rpx;
 }
 .main .title:before{
   content: '';
   display: block;
   width: 4rpx;
   height: 30rpx;
-  top: 10rpx;
+  top: 74rpx;
    background-color: #22cdc4;
    position: absolute;
    left: 20rpx;

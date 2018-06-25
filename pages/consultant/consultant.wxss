@@ -89,7 +89,7 @@
 .buttons-row {
   display: flex;
   width: 90%;
-  margin-top: 30rpx;
+  margin-top: 48rpx;
 
 }
 .buttons-row button:nth-child(1){
