@@ -119,7 +119,7 @@ Page({
           icon: '.icon-icon_kejixiaojuren_n',
           name: '科技小巨人'
         }, {
-          icon: '.icon-icon_qiyeyanfajigou_',
+            icon: '.icon-icon_qiyeyanfajigou_1',
           name: '研发机构'
         }, {
           icon: '.icon-icon_gaopinrending_n',
@@ -128,7 +128,7 @@ Page({
           icon: '.icon-icon_zhuanlichanyehu',
           name: '专利产业化'
         }, {
-          icon: '.icon-icon_jiajikouchuhoub',
+            icon: '.icon-icon_jiajikouchuhoub1',
           name: '加计扣除'
         }]
       },
@@ -150,15 +150,15 @@ Page({
         title: '体系认证',
         color:'#9ed662',
         list: [{
-          icon: '.icon-tixirenzheng_icon_IS',
+          icon: '.icon-ISO',
           name: 'ISO9001',
           label: '质量体系'
         }, {
-          icon: '.icon-tixirenzheng_icon_IS1',
+            icon: '.icon-icon_Zxinxianqu',
           name: 'ISO14001',
           label: '信息安全体系'
         }, {
-          icon: '.icon-tixirenzheng_icon_IS2',
+          icon: '.icon-icon_huanjngtix',
           name: 'ISO27001',
           label: '环境体系'
         }]
