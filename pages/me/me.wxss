@@ -152,10 +152,14 @@
   align-items: center;
 }
 
-.section .border-wrapper.row image {
-  width: 40rpx;
-  height: 40rpx;
+.section .border-wrapper.row .iconfont {
+  display: block;
+  width: 50rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
   margin-right: 20rpx;
+  color: #22CDC4;
 }
 
 .section .border-wrapper.row text {

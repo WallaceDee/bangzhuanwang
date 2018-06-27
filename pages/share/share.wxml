@@ -3,15 +3,15 @@
   <image class="surface" mode="aspectFit" src="../../res/tempImages/consultant_share.jpg"></image>
   <view class="type">
     <view>
-      <image mode="aspectFit" src='../../res/images/icon_baocun_normal@2x.png'></image>
+      <text class="iconfont icon-baocundaobendix"></text>
       <text>保存海报</text>
     </view>
     <view>
-      <image mode="aspectFit" src='../../res/images/icon_pengyou_normal@2x.png'></image>
+      <text class="iconfont icon-weixinhaoyoux"></text>
       <text>微信好友</text>
     </view>
     <view>
-      <image mode="aspectFit" src='../../res/images/icon_pengyouquan_normal@2x.png'></image>
+      <text class="iconfont icon-pengyouquan-"></text>
       <text>朋友圈</text>
     </view>
   </view>

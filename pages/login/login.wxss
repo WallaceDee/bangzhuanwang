@@ -2,12 +2,16 @@
 
 .logo {
   display: block;
-  height: 140rpx;
+  width: 55%;
+  height:180rpx;
   margin-top: 100rpx;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .swiper-tab {
-  margin-top: 100rpx;
+  margin-top: 20rpx;
   width: 100%;
   text-align: center;
   line-height: 100rpx;

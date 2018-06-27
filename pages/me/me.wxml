@@ -20,7 +20,7 @@
       </view>
       <view class="border-wrapper row>">
         <view class="is-link">
-          <image mode="aspectFit" src="../../res/images/list_icon_chakan_normal1@2x.png"></image>
+         <text class="iconfont icon-list_icon_chakan_nor1"></text>
           <text>查看服务顾问详情</text>
         </view>
       </view>
@@ -32,14 +32,14 @@
       </view>
       <view class="border-wrapper tool row">
         <view class="is-link">
-          <image mode="aspectFit" src="../../res/images/list_icon_tuijian_normal@2x.png"></image>
+          <text class="iconfont icon-list_icon_tuijian_no"></text>
           <view>
             <text>推荐服务顾问</text>
             <text>动动手指为好友推荐您的服务顾问</text>
           </view>
         </view>
         <view class="is-link">
-          <image mode="aspectFit" src="../../res/images/list_icon_fenxiangbanzhuang_normal@2x.png"></image>
+          <text class="iconfont icon-list_icon_fenxiangba"></text>
           <view>
             <text>分享帮专网</text>
             <text>分享帮专网</text>

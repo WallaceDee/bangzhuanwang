@@ -21,22 +21,22 @@
     <view>
       <text>手机</text>
       <text>13800138000</text>
-      <image mode="aspectFit" src="../../res/images/list_icon_shouji_normal@2x.png"></image>
+      <text class="iconfont icon-list_icon_shouji_nor"></text>
     </view>
     <view>
       <text>微信</text>
       <text>13800138000</text>
-      <image mode="aspectFit" src="../../res/images/list_icon_chakan_normal@2x.png"></image>
+      <text class="iconfont icon-list_icon_chakan_nor"></text>
     </view>
     <view>
       <text>Q  Q</text>
       <text>13800138000</text>
-      <image mode="aspectFit" src="../../res/images/list_icon_QQ_normal@2x.png"></image>
+      <text class="iconfont icon-list_icon_QQ_normal"></text>
     </view>
     <view>
       <text>邮箱</text>
       <text>13800138000@163.com</text>
-      <image mode="aspectFit" src="../../res/images/list_icon_youxiang_normal @2x.png"></image>
+       <text class="iconfont icon-list_icon_youxiang_n" style="font-size:20px;"></text>
     </view>
   </view>
 

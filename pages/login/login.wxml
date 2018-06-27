@@ -1,6 +1,6 @@
 <!--pages/login/login.wxml-->
 <view class="container">
-  <image class="logo" mode="aspectFit" src="../../res/images/logo-green.png"></image>
+  <text class="logo icon-logo" ></text>
   <view class="swiper-tab">
     <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="switchNav">手机号</view>
     <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="switchNav">已有帮专网账号</view>

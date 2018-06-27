@@ -3,11 +3,11 @@
 
   <view class="search-bar">
     <view bindtap="switchMenu" class="{{menuVisible==true? 'close' : ''}}">
-      <image mode="aspectFit" src="../../res/images/icon_fenlei_normal@2x.png"></image>
+      <text class="iconfont icon-icon_fenlei_normal"></text>
     </view>
     <view>
       <input type="text" placeholder="搜索您需要的知识产权服务"></input>
-      <image mode="aspectFit" src="../../res/images/icon_sousuo_normal copy@2x.png"></image>
+      <text class="iconfont icon-icon_sousuo_normal"></text>
     </view>
   </view>
 
