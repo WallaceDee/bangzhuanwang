@@ -13,38 +13,22 @@
 
   <view class="content">
     <scroll-view scroll-y class="aside" hidden="{{!menuVisible}}" bindtap="switchTabs">
-      <view class="{{tabArr.curHdIndex=='0'? 'active' : ''}}" id="tab-hd01" data-id="0">商标申请</view>
-      <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id="tab-hd02" data-id="1">专利申请</view>
-      <view class="{{tabArr.curHdIndex=='2'? 'active' : ''}}" id="tab-hd03" data-id="2">科技项目</view>
-      <view class="{{tabArr.curHdIndex=='3'? 'active' : ''}}" id="tab-hd04" data-id="3">版权服务</view>
+      <view class="{{tabArr.curHdIndex==index? 'active' : ''}}" id="tab-{{index}}" data-id="{{index}}" wx:for="{{categoryList}}" wx:for-item="item" wx:key="index">{{item.title}}</view>
     </scroll-view>
     <view class="main {{menuVisible==true? 'three' : 'four'}}">
-      <scroll-view scroll-y class="{{tabArr.curBdIndex=='0'? 'active' : ''}}">
-        <view class="title">
-          <text>商标申请</text>
-        </view>
-        <view class="list">
-          <view class="item">
-            <image mode="aspectFit" src="../../res/tempImages/tixirenzheng_icon_ISO9001__normal@2x.png"></image>
-            <text>ISO9001体系认证</text>
+      <scroll-view scroll-y class="{{tabArr.curBdIndex==index? 'active' : ''}}" wx:for="{{categoryList}}" wx:for-item="item" wx:key="index">
+        <block wx:for="{{item.list}}" wx:for-item="items" wx:key="index">
+          <view class="title">
+            <text>{{items.subTitle}}</text>
           </view>
-          <view class="item">
-            <image mode="aspectFit" src="../../res/tempImages/tixirenzheng_icon_ISO14001__normal@2x.png"></image>
-            <text>ISO14001体系认证</text>
+          <view class="list" style="color:{{items.color}}">
+            <view class="item" wx:for="{{items.subList}}" wx:for-item="icon" wx:key="index">
+              <text class="iconfont {{icon.icon}}" style="color:{{icon.color}}"></text>
+              <text>{{icon.name}}</text>
+            </view>
           </view>
-          <view class="item">
-            <image mode="aspectFit" src="../../res/tempImages/tixirenzheng_icon_ISO270001__normal@2x.png"></image>
-            <text>ISO270001体系认证</text>
-          </view>
-          <view class="item">
-            <image mode="aspectFit" src="../../res/tempImages/tixirenzheng_icon_AAAxinyongrenzheng__normal @2x.png"></image>
-            <text>ISO9001体系认证</text>
-          </view>
-        </view>
+        </block>
       </scroll-view>
-      <scroll-view class="{{tabArr.curBdIndex=='1'? 'active' : ''}}">tab-bd02</scroll-view>
-      <scroll-view class="{{tabArr.curBdIndex=='2'? 'active' : ''}}">tab-bd03</scroll-view>
-      <scroll-view class="{{tabArr.curBdIndex=='3'? 'active' : ''}}">tab-bd04</scroll-view>
     </view>
   </view>
 
