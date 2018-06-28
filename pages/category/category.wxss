@@ -10,7 +10,7 @@ page{
   display: flex;
   padding: 0 40rpx;
   box-sizing: border-box;
-  height: 80rpx;
+  height: 90rpx;
   align-items: center;
 }
 
@@ -79,7 +79,7 @@ page{
 .content{
   display: flex;
   width: 100%;
-  height: calc(100% - 80rpx)
+  height: calc(100% - 90rpx)
 }
 .content .aside{
   width: 30%;
@@ -121,7 +121,7 @@ background-color: #fff;
   display: block;
   width: 4rpx;
   height: 30rpx;
-  top: 74rpx;
+  top: 72rpx;
    background-color: #22cdc4;
    position: absolute;
    left: 20rpx;
