@@ -380,7 +380,7 @@ Page({
   switchTabs: function(e) {
     //获取触发事件组件的dataset属性  
     var _datasetId = e.target.dataset.id;
-    if (_datasetId) {
+    if (_datasetId!==undefined) {
       var _obj = {};
       _obj.curHdIndex = _datasetId;
       _obj.curBdIndex = _datasetId;
