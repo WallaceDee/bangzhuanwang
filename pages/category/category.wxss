@@ -154,7 +154,7 @@ position: relative;
 color: #666;
 font-size: 12px;
 display: block;
-height: 72rpx;
+min-height: 70rpx;
 /* white-space: nowrap; */
 text-align: center;
 overflow: hidden;
