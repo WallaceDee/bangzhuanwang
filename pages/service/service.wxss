@@ -9,8 +9,8 @@ display:block;
 }
 .no-data{
 	display:block;
-	width:100%;
-	height:320rpx;
+	width:614rpx;
+	height:256rpx;
 	margin:140rpx auto 0 auto;
 }
 .service-btn{

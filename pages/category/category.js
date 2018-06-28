@@ -20,19 +20,19 @@ Page({
               name: '商标注册'
             },
             {
-              icon: 'icon-shangbiao_icon_shang6',
+              icon: 'icon-shangbiao_icon_shang5',
               name: '商标更换'
             },
             {
-              icon: 'icon-shangbiao_icon_shang7',
+              icon: 'icon-shangbiao_icon_shang15',
               name: '商标转让'
             },
             {
-              icon: 'icon-shangbiao_icon_shang5',
+              icon: 'icon-shangbiao_icon_shang8',
               name: '商标异议'
             },
             {
-              icon: 'icon-shangbiao_icon_shang8',
+              icon: 'icon-shangbiao_icon_shang7',
               name: '商标复审'
             },
             {
@@ -40,7 +40,7 @@ Page({
               name: '商标撤销'
             },
             {
-              icon: 'icon-shangbiao_icon_shang10',
+              icon: 'icon-shangbiao_icon_shang13',
               name: '商标无效'
             },
             {
@@ -48,7 +48,7 @@ Page({
               name: '商标续展'
             },
             {
-              icon: 'icon-shangbiao_icon_shang11',
+              icon: 'icon-shangbiao_icon_shang14',
               name: '商标许可备案'
             },
             {
@@ -80,7 +80,8 @@ Page({
           subTitle: '国际商务服务',
           subList: [{
               icon: 'icon-madrid',
-              name: '马德里国际商标'
+              name: '马德里国际商标',
+              color:'#5EAA90'
             },
             {
               icon: 'icon-shangbiao_icon_meigu1',
@@ -151,7 +152,7 @@ Page({
             icon: 'icon-fenlei_icon_nianfeim',
             name: '年费免费监控'
           }, {
-            icon: '.icon-fenlei_icon_zhuanliw1',
+              icon: 'icon-fenlei_icon_zhuanlin',
             name: '专利年费代缴'
           }, {
             icon: 'icon-fenlei_icon_zhuanliw1',
