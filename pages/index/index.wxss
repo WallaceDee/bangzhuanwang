@@ -140,7 +140,7 @@
 .section .item-list {
   display: flex;
   flex-wrap: wrap;
-  padding: 30rpx 30rpx;
+  padding: 30rpx;
 }
 
 .section .item-list>view {
@@ -149,11 +149,14 @@
   text-align: center;
   margin: 10rpx 0;
   display: flex;
+  /* height: 40rpx;
+  line-height: 40rpx; */
 }
 
 .section .item-list>view text:first-child {
   margin-right: 10rpx;
   font-size:16px;
+  padding-top: 2rpx;
 }
 
 .section .item-list>view view:nth-child(2) {

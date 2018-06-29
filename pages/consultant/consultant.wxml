@@ -36,7 +36,7 @@
     <view>
       <text>邮箱</text>
       <text>13800138000@163.com</text>
-       <text class="iconfont icon-list_icon_youxiang_n" style="font-size:20px;"></text>
+      <text class="iconfont icon-list_icon_youxiang_n" style="font-size:20px;"></text>
     </view>
   </view>
 

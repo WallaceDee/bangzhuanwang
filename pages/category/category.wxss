@@ -85,7 +85,7 @@ page{
   width: 30%;
   height: 100%;
   background: #F6F7F8;
-  display: flex;flex-direction:column;
+  /* display: flex;flex-direction:column; */
 }
 .aside view{
   font-size: 15px;

@@ -150,7 +150,7 @@ Page({
       title: '体系认证',
       color: '#9ed662',
       list: [{
-        icon: 'icon-ISO',
+        icon: 'icon-icon_zhiliangtix',
         name: 'ISO9001',
         label: '质量体系'
       }, {

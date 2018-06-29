@@ -81,7 +81,7 @@ Page({
           subList: [{
               icon: 'icon-madrid',
               name: '马德里国际商标',
-              color:'#5EAA90'
+              color: '#5EAA90'
             },
             {
               icon: 'icon-shangbiao_icon_meigu1',
@@ -152,7 +152,7 @@ Page({
             icon: 'icon-fenlei_icon_nianfeim',
             name: '年费免费监控'
           }, {
-              icon: 'icon-fenlei_icon_zhuanlin',
+            icon: 'icon-fenlei_icon_zhuanlin',
             name: '专利年费代缴'
           }, {
             icon: 'icon-fenlei_icon_zhuanliw1',
@@ -233,7 +233,7 @@ Page({
             icon: '.icon-kejixiangmu_icon_chu1',
             name: '高新技术企业认定'
           }, {
-            icon: 'icon-kejixiangmu_icon_gao1',
+            icon: 'icon-kejixiangmu_icon_gao',
             name: '高新技术企业培育'
           }, {
             icon: 'icon-kejixiangmu_icon_kej',
@@ -245,16 +245,16 @@ Page({
             icon: 'icon-kejixiangmu_icon_yan1',
             name: '研发经费投入后补助'
           }, {
-            icon: 'icon-kejixiangmu_icon_zhi1',
+            icon: 'icon-kejixiangmu_icon_zhi',
             name: '知识产权贯标认定'
           }, {
-            icon: 'icon-kejixiangmu_icon_gao',
+            icon: 'icon-kejixiangmu_icon_gao1',
             name: '高新技术产品认定'
           }, {
             icon: 'icon-kejixiangmu_icon_qiy',
             name: '企业研发机构建设'
           }, {
-            icon: 'icon-kejixiangmu_icon_zhi',
+            icon: 'icon-kejixiangmu_icon_zhi1',
             name: '知识产权授权补贴'
           }]
         }, {
@@ -381,7 +381,7 @@ Page({
   switchTabs: function(e) {
     //获取触发事件组件的dataset属性  
     var _datasetId = e.target.dataset.id;
-    if (_datasetId!==undefined) {
+    if (_datasetId !== undefined) {
       var _obj = {};
       _obj.curHdIndex = _datasetId;
       _obj.curBdIndex = _datasetId;
