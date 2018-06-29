@@ -102,7 +102,7 @@ Page({
               name: '韩国商标'
             },
             {
-              icon: 'icon-shangbiao_icon_riben1',
+              icon: 'icon-shangbiao_icon_xiang',
               name: '香港商标',
               color: '#F94F4F'
             },
