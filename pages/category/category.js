@@ -24,11 +24,11 @@ Page({
               name: '商标更换'
             },
             {
-              icon: 'icon-shangbiao_icon_shang15',
+              icon: 'icon-shangbiao_icon_shang6',
               name: '商标转让'
             },
             {
-              icon: 'icon-shangbiao_icon_shang8',
+              icon: 'icon-shangbiao_icon_shang15',
               name: '商标异议'
             },
             {
@@ -68,11 +68,11 @@ Page({
               name: '商标交易'
             },
             {
-              icon: 'icon-shangbiao_icon_shang14',
+              icon: 'icon-shangbiao_icon_shang10',
               name: '商标设计'
             },
             {
-              icon: 'icon-shangbiao_icon_shang15',
+              icon: 'icon-shangbiao_icon_shang11',
               name: '商标诊断'
             }
           ]
